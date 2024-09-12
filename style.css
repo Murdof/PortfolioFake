@@ -48,12 +48,11 @@ a{
 
 #headerCTA {
     font-family: 'Poppins';
+    padding-top: 100px;
 }
 
-#headerCTA p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
+p.gray {
+    font-family: 'Poppins';font-size: 16px;font-weight: 400;line-height: 32px;
     color: #575455;
 }
 
@@ -95,4 +94,79 @@ a{
 #clients {
     margin-top: 50px ;
     margin-bottom: 50px;
+}
+
+h2.red {
+    font-family: 'Poppins';font-size: 16px;font-weight: 700;line-height: 24px;
+    color: #F75C4E;
+    margin-bottom: 0;
+}
+h1.black {
+    font-family: 'Poppins';font-size: 36px;font-weight: 700;line-height: 54px;
+    margin-top: 0;
+}
+
+#textServ {
+    font-family: 'Poppins';font-size: 16px;font-weight: 400;line-height: 32px;text-align: center;
+    margin-bottom: 50px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+#services .textCenter h3{
+    font-family: 'Poppins';font-size: 20px;font-weight: 600;line-height: 30px;
+}
+
+.textLeft {
+    text-align: left;
+    margin-left: 80px;
+}
+
+#serv .red {
+    text-align: center;
+}
+#serv .black {
+    text-align: center;
+}
+
+#inputdiv {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#textInput{
+    width: 70%;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    background-color: #F5F6FB;
+    border: 0;
+    padding: 15px 30px 15px 30px;
+}
+
+#buttonInput {
+    gap: 0px;
+    border-radius: 50px;
+    background-color: #1F7CFF;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: 0;
+    padding: 15px 30px 15px 30px;
+    margin-top: 20px;
+}
+
+#porttitle {
+    margin-top: 150px;
+}
+
+.portimg img {
+
+    width: 100%;
+
 }
